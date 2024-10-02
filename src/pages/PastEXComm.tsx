@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const PastEXComm: React.FC = () => {
   const committeeData = [
@@ -36,10 +37,28 @@ const PastEXComm: React.FC = () => {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Past Executive Committee | Society of Nepal Doctors of Bangladesh
+        </title>
+
+        {/* Meta description for SEO */}
+        <meta
+          name="description"
+          content="Explore the past Executive Committee members of the Society for Nepalese Doctors from Bangladesh (SNDB). Learn about their contributions to healthcare services and the organization's growth in Nepal."
+        />
+
+        {/* Keywords for the page */}
+        <meta
+          name="keywords"
+          content="past SNDB Executive Committee, former SNDB leadership, Nepalese doctors, Bangladesh doctors, healthcare leadership, SNDB history, healthcare in Nepal"
+        />
+      </Helmet>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="relative text-center pb-8">
           <p className="text-gray-500 uppercase relative inline-block text-4xl font-semibold">
-          Past  Executive Committee
+            Past Executive Committee
           </p>
           <span className="block w-80 h-[2px] bg-red-500 mx-auto mt-1"></span>
         </div>

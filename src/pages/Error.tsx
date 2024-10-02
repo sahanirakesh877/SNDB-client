@@ -1,8 +1,13 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Error: React.FC = () => {
   return (
     <>
+      <Helmet>
+        <title>Error | Society of Nepal Doctors of Bangladesh</title>
+      </Helmet>
+
       <div
         className="flex items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat"
         style={{

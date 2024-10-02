@@ -53,6 +53,10 @@ const Header: React.FC = () => {
             About Us
           </Link>
 
+          <Link to="/executive-message" className="hover:text-gray-200">
+            President's Message
+          </Link>
+
           {/* Committee Dropdown (Desktop) */}
           <div className="relative group ">
             <button className="hover:text-red-400 flex items-center">
@@ -67,9 +71,7 @@ const Header: React.FC = () => {
               </Link>
             </div>
           </div>
-          <Link to="/executive-message" className="hover:text-gray-200">
-            President's Message
-          </Link>
+       
           {/* Members Dropdown (Desktop) */}
           <div className="relative group">
             <button className="hover:text-red-400 flex items-center">
@@ -77,7 +79,7 @@ const Header: React.FC = () => {
             </button>
             <div className="absolute left-0 mt-3 w-48 bg-red-500 text-black shadow-lg rounded-md z-10 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-200 ease-in-out transform -translate-y-4">
               <Link to="/member" className="block text-sm py-2 border-b-2 hover:bg-red-600 text-white">
-                Regular Members
+              Life Members
               </Link>
               <Link to="/register-member" className="block text-sm py-2 hover:bg-red-600 text-white">
               Membership Info
@@ -85,16 +87,16 @@ const Header: React.FC = () => {
             </div>
           </div>
 
-         
+          <Link to="/blog" className="hover:text-gray-200">
+           Activities/blog
+          </Link>
           <Link to="/notice" className="hover:text-gray-200">
             Notice
           </Link>
           <Link to="/gallery" className="hover:text-gray-200">
             Gallery
           </Link>
-          <Link to="/blog" className="hover:text-gray-200">
-            Blog
-          </Link>
+          
           <Link to="/contact" className="hover:text-gray-200">
             Contact
           </Link>
@@ -136,7 +138,7 @@ const Header: React.FC = () => {
             {isMobileMembersDropdownOpen && (
               <div className="ml-8 mt-2 space-y-1">
                 <Link to="/member" className="block hover:text-gray-200 border-b border-red-500" onClick={closeMenu}>
-                Regular Members
+                Life Members
                 </Link>
                 <Link to="/register-member" className="block hover:text-gray-200" onClick={closeMenu}>
                   Membership Info
@@ -155,7 +157,7 @@ const Header: React.FC = () => {
             Gallery
           </Link>
           <Link to="/blog" className="block hover:text-gray-200 border-b border-green-500" onClick={closeMenu}>
-            Blog
+            Activities
           </Link>
           <Link to="/contact" className="block hover:text-gray-200 " onClick={closeMenu}>
             Contact
