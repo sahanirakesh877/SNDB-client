@@ -13,9 +13,9 @@ import AbhisekRaj from "/doctor18.jpeg";
 // Vice Presidents
 import Rajendra from "/doctor20.jpeg";
 import Amresh from "/doctor19.jpeg";
-import Narendra from "/doctor19.jpeg";
+import Narendra from "/doctor9.jpeg";
 import Kathit from "/doctor19.jpeg";
-import Narayan from "/doctor19.jpeg";
+import Narayan from "/doctor5.jpeg";
 import Khim from "/doctor19.jpeg";
 import Pawan from "/doctor8.jpeg";
 
@@ -32,162 +32,84 @@ import Saruta from "/doctor2.jpeg";
 import Milan from "/doctor11.jpeg";
 
 const ExecutiveCommittee: React.FC = () => {
-  // const committeeData = [
-  //   {
-  //     title: "President",
-  //     name: "Dr. Rakesh Shah",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo:Rakesh,
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  //   {
-  //     title: "Immediate Past President",
-  //     name: "Dr. Dinesh Prasad Koirala",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo: "/doctor1.jpeg",
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  //   {
-  //     title: "General Secretary",
-  //     name: "Dr Ritesh Ghimire",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo: "doctor19.jpeg",
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  //   {
-  //     title: "Secretary",
-  //     name: "Dr. Nehal Asharaf",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo: "doctor19.jpeg",
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  //   {
-  //     title: "Joint Secretary",
-  //     name: "Dr. Pinky Shah",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo: "doctor10.jpeg",
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  //   {
-  //     title: "Treasurer",
-  //     name: "Dr. Amrita Shrestha",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo: "doctor19.jpeg",
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  //   {
-  //     title: "Joint Treasurer",
-  //     name: "Dr. Abhisek Raj",
-  //     phone: 1234567890,
-  //     email: "info@rakesh123@gmail.com",
-  //     photo: "doctor18.jpeg",
-  //     workingPlace: "Everest  Hospital",
-  //     Degree: "MBBs",
-  //     specialist: "Surgeon",
-  //     Address: "Kalanki",
-  //   },
-  // ];
+
 
   const committeeData = [
-    {
-      title: "President",
+    { 
+      title: "President & Founder",
       name: "Dr. Rakesh Shah",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Rakesh, // Use imported image
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: " Colorectal Surgeon",
       Address: "Kalanki",
     },
     {
       title: "Immediate Past President",
       name: "Dr. Dinesh Prasad Koirala",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9804864344,
+      email: "sndbdoctors@gmail.com",
       photo: Dinesh, // Use imported image
-      workingPlace: "Everest Hospital",
+      workingPlace: "TUTH",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Pediatric Surgeon",
       Address: "Kalanki",
     },
     {
       title: "General Secretary",
       name: "Dr Ritesh Ghimire",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Ritesh, // Use imported image
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Internal Medicine",
       Address: "Kalanki",
     },
     {
       title: "Secretary",
       name: "Dr. Nehal Asharaf",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Nehal, // Use imported image
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
     {
       title: "Joint Secretary",
       name: "Dr. Pinky Shah",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Pinky, // Use imported image
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: " Dental Surgeon",
       Address: "Kalanki",
     },
     {
       title: "Treasurer",
       name: "Dr. Amrita Shrestha",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Amrita, // Use imported image
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: " Dental Surgeon",
       Address: "Kalanki",
     },
     {
       title: "Joint Treasurer",
       name: "Dr. Abhisek Raj",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: AbhisekRaj, // Use imported image
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
   ];
@@ -195,79 +117,79 @@ const ExecutiveCommittee: React.FC = () => {
   const VicePresident = [
     {
       name: "Dr. Rajendra Chaudhary (Koshi)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Rajendra,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Radiologist",
       Address: "Kalanki",
     },
     {
       name: "Dr. Amresh Karn (Madhesh)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Amresh,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Urologist",
       Address: "Kalanki",
     },
     {
       name: "Dr. Narendra Salikhe (Bagmati)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Narendra,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Neuro Surgeon",
       Address: "Kalanki",
     },
     {
       name: "Dr. Kathit Raj Ghimire (Gandaki)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Kathit,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Orthopedic Surgeon",
       Address: "Kalanki",
     },
     {
       name: "Dr. Narayan Dulal (Lumbini)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Narayan,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Urologist",
       Address: "Kalanki",
     },
     {
       name: "Dr. Khim KC (Karnali)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Khim,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
     {
       name: "Dr. Pawan K. Shah (Sudurpaschim)",
-      title: "Vice-President",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      title: "Vice President / Province Coordinator",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Pawan,
       workingPlace: "Everest Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "MDGP",
       Address: "Kalanki",
     },
   ];
@@ -276,52 +198,52 @@ const ExecutiveCommittee: React.FC = () => {
     {
       name: "Dr. Shrish Silwal",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Shrish,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: " Pediatric Surgeon",
       Address: "Kalanki",
     },
     {
       name: "Dr. Mayank Acharya",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Mayank,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "CTVs Surgeon",
       Address: "Kalanki",
     },
     {
       name: "Dr. Mukesh Shah",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Mukesh,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Orthodontist",
       Address: "Kalanki",
     },
     {
       name: "Dr. Abhisek Tiwari",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: AbhisekTiwari,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "DM Cardiology (R)",
       Address: "Kalanki",
     },
     {
       name: "Dr. Manu Bhattarai",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Manu,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
@@ -331,41 +253,52 @@ const ExecutiveCommittee: React.FC = () => {
     {
       name: "Dr. Ankita Palikhe",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Ankita,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
     {
       name: "Dr. Manish Gurmaita",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Manish,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
     {
       name: "Dr. Prajwol Gauchan",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Prajwol,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
+      Address: "Kalanki",
+    },
+    {
+      name: "Dr.Mamta Bhatta",
+      title: "Members",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
+      photo: Prajwol,
+      workingPlace: "Everest  Hospital",
+      Degree: "MBBs",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
     {
       name: "Dr. Saruta Gurung",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Saruta,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
@@ -375,12 +308,12 @@ const ExecutiveCommittee: React.FC = () => {
     {
       name: "Dr. Milan Subedi",
       title: "Members",
-      phone: 1234567890,
-      email: "info@rakesh123@gmail.com",
+      phone: 9817073670,
+      email: "sndbdoctors@gmail.com",
       photo: Milan,
       workingPlace: "Everest  Hospital",
       Degree: "MBBs",
-      specialist: "Surgeon",
+      specialist: "Prime Care Physician",
       Address: "Kalanki",
     },
   ];
@@ -430,7 +363,7 @@ const ExecutiveCommittee: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="relative text-center pb-8">
           <p className="text-gray-500 uppercase relative inline-block text-4xl font-semibold">
-            Executive Committee
+            Executive Committee <span className="text-red-600">(2023-2025)</span>
           </p>
           <span className="block w-80 h-[2px] bg-red-500 mx-auto mt-1"></span>
         </div>
@@ -451,9 +384,9 @@ const ExecutiveCommittee: React.FC = () => {
           ))}
         </div>
 
-        {/* Vice-President & Provincial Coordinators */}
+        {/* Vice President /Province Coordinator", & Provincial Coordinators */}
         <h3 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 inline-block border-red-500">
-          Vice-President & Provincial Coordinators:
+          Vice President / Province Coordinator
         </h3>
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {VicePresident.map((vp, index) => (
@@ -462,8 +395,8 @@ const ExecutiveCommittee: React.FC = () => {
               className="bg-blue-50 shadow-md rounded-lg p-4 transition-transform transform hover:scale-105 hover:shadow-lg"
               onClick={() => handleItemClick(vp)}
             >
-              <p className="text-gray-800 font-medium">{vp.title}</p>
-              <p className="text-gray-800 font-medium">{vp.name}</p>
+              {/* <p className="text-gray-500 font-semibold">{vp.title}</p> */}
+              <p className="text-gray-800 font-semibold">{vp.name}</p>
             </li>
           ))}
         </ul>
@@ -510,13 +443,15 @@ const ExecutiveCommittee: React.FC = () => {
             <h3 className="text-xl font-semibold text-green-700">
               Ext. Affairs Coordinator:
             </h3>
-            <p className="mt-2 text-gray-700">Dr. Rajesh Shah</p>
+            <p className="mt-2 text-gray-700">Dr. Rajesh Shah (Oral & Maxillio-Facial Surgeon)</p>
+          
           </div>
           <div className="bg-gradient-to-r from-green-50 to-green-100 shadow-lg rounded-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h3 className="text-xl font-semibold text-green-700">
               Editor-in-Chief
             </h3>
-            <p className="mt-2 text-gray-700">Dr. Deepak Kumar Yadav</p>
+            <p className="mt-2 text-gray-700">Dr. Deepak Kumar Yadav (Anesthesiologist)</p>
+           
           </div>
         </div>
       </div>

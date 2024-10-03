@@ -3,36 +3,32 @@ import { Helmet } from "react-helmet";
 
 const PastEXComm: React.FC = () => {
   const committeeData = [
-    { title: "President", name: "Dr. Rakesh Shah" },
-    { title: "Immediate Past President", name: "Dr. Dinesh Prasad Koirala" },
-    { title: "General Secretary", name: "Dr Ritesh Ghimire" },
-    { title: "Secretary", name: "Dr. Nehal Asharaf" },
-    { title: "Joint Secretary", name: "Dr. Pinky Shah" },
-    { title: "Treasurer", name: "Dr. Amrita Shrestha" },
-    { title: "Joint Treasurer", name: "Dr. Abhisek Raj" },
+    { title: "President", name: "Dr. Dinesh Prasad Koirala" },
+    { title: "General Secretary", name: "Dr Mukesh Prashad Shah" },
+ 
+    { title: "Joint Secretary", name: "Dr. Santosh  Raj Manandhar" },
+    { title: "Treasurer", name: "Dr. Pinky Shah" },
+    { title: "Joint Treasurer", name: "Dr. Mithlesh Yadav" },
   ];
 
   const VicePresident = [
-    "Dr. Rajendra Chaudhary (Koshi)",
-    "Dr. Amresh Karn (Madhesh)",
-    "Dr. Narendra Salikhe (Bagmati)",
-    "Dr. Kathit Raj Ghimire (Gandaki)",
-    "Dr. Narayan Dulal (Lumbini)",
-    "Dr. Khim KC (Karnali)",
-    "Dr. Pawan K. Shah (Sudurpaschim)",
+    "Dr. Bishwo Pokhrel",
+    "Dr. Lalit Kumar Das",
+    "Dr. Rita Kumari mahaseth",
+   
   ];
 
   const members = [
-    "Dr. Shrish Silwal",
-    "Dr. Mayank Acharya",
+    "Dr. bashanta Baral",
+    "Dr. Siba Thakali",
     "Dr. Mukesh Shah",
-    "Dr. Abhisek Tiwari",
-    "Dr. Manu Bhattarai",
-    "Dr. Ankita Palikhe",
-    "Dr. Manish Gurmaita",
-    "Dr. Prajwol Gauchan",
-    "Dr. Saruta Gurung",
-    "Dr. Milan Subedi",
+    "Dr. Archana Shrestha Yadav",
+    "Dr. Niranjan Shah",
+    "Dr. Nehal Asharaf",
+    "Dr. Ritesh Ghimire",
+    "Dr. Amrita Shrestha",
+    "Dr. Upasana Sharma",
+   
   ];
 
   return (
@@ -58,7 +54,7 @@ const PastEXComm: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="relative text-center pb-8">
           <p className="text-gray-500 uppercase relative inline-block text-4xl font-semibold">
-            Past Executive Committee
+            Past Executive Committee <span className="text-red-600">(2021-2022)</span>
           </p>
           <span className="block w-80 h-[2px] bg-red-500 mx-auto mt-1"></span>
         </div>
@@ -130,15 +126,15 @@ const PastEXComm: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-gradient-to-r from-green-50 to-green-100 shadow-lg rounded-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h3 className="text-xl font-semibold text-green-700">
-              Ext. Affairs Coordinator:
+            Founder & Ext. Affairs Coordinator:
             </h3>
-            <p className="mt-2 text-gray-700">Dr. Rajesh Shah</p>
+            <p className="mt-2 text-gray-700">Dr. Rakesh  Shah</p>
           </div>
           <div className="bg-gradient-to-r from-green-50 to-green-100 shadow-lg rounded-lg p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <h3 className="text-xl font-semibold text-green-700">
               Editor-in-Chief
             </h3>
-            <p className="mt-2 text-gray-700">Dr. Deepak Kumar Yadav</p>
+            <p className="mt-2 text-gray-700">Dr. Amresh Karn </p>
           </div>
         </div>
       </div>
