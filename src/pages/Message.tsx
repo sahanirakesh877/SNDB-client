@@ -35,6 +35,7 @@ const MessageSection: React.FC<{
             >
               <img
                 src={imgSrc}
+                loading="lazy"
                 alt={imgAlt}
                 className="w-full h-auto object-contain bg-green-300"
               />

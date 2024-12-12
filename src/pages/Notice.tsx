@@ -105,6 +105,7 @@ const Notice: React.FC = () => {
                             import.meta.env.VITE_SERVERAPI
                           }/${item.images.replace(/\\/g, "/")}`}
                           alt={item.title}
+                          loading="lazy"
                           className="w-20 h-20  object-contain mr-4"
                         />
                       </Link>

@@ -89,6 +89,7 @@ const BlogDetails: React.FC = () => {
                 <img
                   src={`${import.meta.env.VITE_SERVERAPI}/${blog.image}`}
                   alt={blog.title}
+                  loading="lazy"
                   className="rounded-lg w-full h-auto object-cover"
                   style={{ maxHeight: "600px" }}
                 />

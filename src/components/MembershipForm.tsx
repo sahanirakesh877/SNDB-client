@@ -60,11 +60,16 @@ const MembershipForm: React.FC = () => {
 
     try {
       // Make an Axios POST request to the backend
-      const response = await axios.post("http://localhost:5000/api/v1/createmember", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
+      const response = await axios.post(
+        `${import.meta.env.VITE_SERVERAPI}/api/v1/createmember`,
+        formData,
+        {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        }
+      );
+      
 
       // Handle successful submission
       console.log("Form submitted successfully:", response.data);

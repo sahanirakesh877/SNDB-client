@@ -100,6 +100,7 @@ const Gallery: React.FC = () => {
                 <img
                   key={`${gallery._id}-${imageIndex}`} // Use a unique key combining gallery ID and image index
                   src={`${import.meta.env.VITE_SERVERAPI}/${image}`}
+                   loading="lazy"
                   className="cursor-pointer mb-4 transition-transform transform hover:scale-105"
                   onClick={() =>
                     openLightbox(

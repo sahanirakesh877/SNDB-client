@@ -122,6 +122,7 @@ const Blog: React.FC = () => {
                     <img
                       src={`${import.meta.env.VITE_SERVERAPI}/${post.image}`}
                       alt={post.altText}
+                      loading="lazy"
                       className="object-cover w-full h-48 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110"
                     />
                   </Link>

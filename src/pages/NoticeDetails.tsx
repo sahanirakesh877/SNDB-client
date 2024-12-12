@@ -70,6 +70,7 @@ const NoticeDetails: React.FC = () => {
             /\\/g,
             "/"
           )}`}
+          loading="lazy"
           alt={notice.title}
           className="mb-4 rounded-lg shadow-md w-[700px] h-auto object-contain border"
         />

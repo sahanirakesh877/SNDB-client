@@ -26,6 +26,7 @@ const MemberCard: React.FC<{
         <div className="w-36 h-36 rounded-full overflow-hidden border-4 border-gray-50 shadow-lg mb-4">
           <img
             src={imageUrl}
+            loading="lazy"
             alt={title}
             className="w-full h-full object-contain object-center "
           />

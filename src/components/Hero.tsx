@@ -20,8 +20,7 @@ const Hero: React.FC = () => {
         const response = await axios.get(
           `${import.meta.env.VITE_SERVERAPI}/api/v1/hero/getallheroimg`
         );
-        setSlides(response.data.Heros.slice(0,3));
-    
+        setSlides(response.data.Heros.slice(0, 3));
       } catch (error) {
         console.error("Error fetching slide data", error);
       }
@@ -29,8 +28,6 @@ const Hero: React.FC = () => {
 
     fetchSlides();
   }, []);
-
-  
 
   const settings = {
     infinite: true,
@@ -51,7 +48,8 @@ const Hero: React.FC = () => {
               <img
                 src={`${import.meta.env.VITE_SERVERAPI}/${slide.images}`}
                 alt={`Slide ${index + 1}`}
-                className="object-cover w-full h-80 md:h-[70vh]"
+                loading="lazy"
+                className="object-cover w-full h-80 md:h-[80vh]"
               />
               <h2
                 className="text-center text-2xl md:text-3xl p-2 text-red-700 shadow-md font-semibold absolute bottom-12 left-1/2 transform -translate-x-1/2"
@@ -65,7 +63,9 @@ const Hero: React.FC = () => {
           ))}
         </Slider>
       ) : (
-        <p><Loader/></p>
+        <p>
+          <Loader />
+        </p>
       )}
     </div>
   );
